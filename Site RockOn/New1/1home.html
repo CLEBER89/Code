@@ -1,0 +1,229 @@
+<html>
+
+<head>
+    <title>Rock´n Roll Site</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=devide-width, initial-scale=1">
+
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="_css/estilo.css" rel="stylesheet">
+    <style type="text/css">
+        body{
+            cursor: url(cursores/guitar.png), default
+        }
+    </style>
+</head>
+
+<body>                 
+                
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <section class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#movelmenu" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            
+            <a href="1home.html"><img src="_img/ROCK-ON-Logo_Final_completed_thumb-1024x236.png" id="imglogo" alt="logo"></a>
+            
+            <audio autoplay controls id="som">
+                <source src="audio/Iron%20Maiden%20-%20Aces%20High%20-HD-.mp3" type="audio/mpeg">
+            </audio>
+            
+            <div class="collapse navbar-collapse pull-right" id="movelmenu">
+                <ul class="nav navbar-nav">
+                    <li><a href="1home.html" id="navbar">HOME</a></li> 
+                    <li><a href="2historia.html" id="navbar">HISTÓRIA</a></li>
+                    <li><a href="3agenda.html" id="navbar">AGENDA</a></li>
+                    <li><a href="4eventos.html" id="navbar">EVENTOS</a></li>
+                    <li><a href="5cad.html" id="navbar">CADASTRE-SE</a></li>
+                </ul>
+            </div>
+            
+    <!--    <audio autoplay repeat id="demo" src="audio/AC_DC%20-%20TOP.mp3"></audio>
+        <div class="navbar-header" id="som" responsive>
+          <button class="btn btn-primary btn-sm" onclick="document.getElementById('demo').play()">Play</button>
+          <button class="btn btn-primary btn-sm" onclick="document.getElementById('demo').pause()">Pause</button>
+          <button class="btn btn-primary btn-sm" onclick="document.getElementById('demo').volume+=0.1">+</button>
+          <button class="btn btn-primary btn-sm" onclick="document.getElementById('demo').volume-=0.1">-</button>
+        </div>-->
+            
+        </section>
+    </nav>
+
+    <div class="carousel slide" data-ride="carousel" id="galeria">
+
+        <ol class="carousel-indicators">
+            <li data-target="#galeria" data-slide-to="0" class="active"></li>
+            <li data-target="#galeria" data-slide-to="1"></li>
+            <li data-target="#galeria" data-slide-to="2"></li>
+            <li data-target="#galeria" data-slide-to="3"></li>
+        </ol>
+
+        <div class="carousel-inner">
+            <div class="item active">
+                <img src="_img/4.jpg" class="img-responsive">
+            </div>
+            <div class="item">
+                <img src="_img/2.jpg" class="img-responsive">
+            </div>
+            <div class="item">
+                <img src="_img/3.jpg" class="img-responsive">
+            </div>
+            <div class="item">
+                <img src="_img/1.jpg" class="img-responsive">
+            </div>
+        </div>
+
+        <a class="left carousel-control" href="#galeria" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+
+        <a class="right carousel-control" href="#galeria" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+
+    </div><!--Carousel-->
+    
+    <div class="jumbotron">
+        <div class="container">
+            <h1>História do Rock´n Roll</h1>
+            <p class="lead">O Rock and Roll, conhecido também como rock'n roll, é um estilo musical que surgiu nos Estados Unidos no final dos anos 1940 e início dos anos 1950, com raízes nos estilos musicais norte-americanos, como: country, blues, R&B e gospel, e que rapidamente se espalhou para o resto do mundo.</p>
+        </div>
+    </div><!--Jumbotron-->
+
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-6 col-md-4">
+                <div class="thumbnail">
+                    <img src="_img/foto1.jpg">
+                    <div class="caption">
+                        <h3>Periphery</h3>
+                        <p>Periphery é uma banda da cidade de Bethesda, do estado de Maryland, dos EUA, nos estilos de Progressive Metal e Djent Metal.</p>
+                        <a href="http://www.periphery.net/" class="btn btn-primary" target="_blank">Conheça</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xs-6 col-md-4">
+                <div class="thumbnail">
+                    <img src="_img/foto2.jpg">
+                    <div class="caption">
+                        <h3>Black Tide</h3>
+                        <p>Black Tide é uma banda de Heavy Metal americana de Miami, Florida. Formada em 2004 por Gabriel Garcia.</p>
+                        <a href="http://www.blacktidemusic.com/" class="btn btn-success" target="_blank">Conheça</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xs-6 col-md-4">
+                <div class="thumbnail">
+                    <img src="_img/foto3.jpg">
+                    <div class="caption">
+                        <h3>Trivium</h3>
+                        <p>Trivium é uma banda americana de heavy metal formada em 1999, originária de Orlando, Flórida. A banda já lançou sete álbuns de estúdio.</p>
+                        <a href="https://www.facebook.com/Trivium/" class="btn btn-primary" target="_blank">Conheça</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xs-6 col-md-4">
+                <div class="thumbnail">
+                    <img src="_img/foto4.jpg">
+                    <div class="caption">
+                        <h3>Parkway Drive</h3>
+                        <p>Parkway Drive é uma banda australiana de metalcore, formada em 2002. A banda já lançou cinco álbuns completos (Killing With A Smile, Horizons, Deep Blue, Atlas e Ire).</p>
+                        <a href="http://www.parkwaydriverock.com/" class="btn btn-success" target="_blank">Conheça</a>
+                    </div>
+                </div>
+            </div>
+            <div class="hidden-xs">
+                <div class="col-xs-6 col-md-4">
+                    <div class="thumbnail">
+                        <img src="_img/foto5.jpg">
+                        <div class="caption">
+                            <h3>AC/DC</h3>
+                            <p>AC/DC é uma banda de rock formada em Sydney, Austrália em 1973, pelos irmãos Malcolm e Angus Young, é considerada umas das maiores e mais bem sucedidas bandas de todos os tempos.</p>
+                            <a href="http://www.acdc.com/" class="btn btn-primary" target="_blank">Conheça</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-6 col-md-4">
+                    <div class="thumbnail">
+                        <img src="_img/foto6.jpg">
+                        <div class="caption">
+                            <h3>Adrenaline Mob</h3>
+                            <p>Adrenaline Mob é um supergrupo de heavy metal[1] formado em 2011 pelo cantor Russell Allen (Symphony X), o guitarrista Mike Orlando e o baterista Mike Portnoy (Ex-Dream Theater).</p>
+                            <a href="http://www.adrenalinemob.com/" class="btn btn-success" target="_blank">Conheça</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div><!--Thumbnails-->
+
+    <div class="container">  
+     <div class="jumbotron">
+      <div class="container">
+
+        <div class="form-group">
+           <div class="col-sm-7 col-sm-offset-5">
+               <img src="_img/skull_rock_n_roll-t2.png" id="imglogo2" alt="logo2">
+           </div>
+            <div class="col-sm-8 col-sm-offset-4">
+                <h3>Inscreva-se em nossa newsletter</h3>
+            </div>
+        </div>
+
+        <form class="form-horizontal">
+            <div class="form-group">
+                <label class="col-sm-2" for="nome">Nome</label>
+                <div class="col-sm-10">
+                    <input class="form-control" type="text" id="nome" placeholder="Seu nome">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="col-sm-2" for="email">Email</label>
+                <div class="col-sm-10">
+                    <input class="form-control" type="email" id="email" placeholder="Seu email">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="checkbox">
+                    <div class="col-sm-10 col-sm-offset-2">
+                        <label for="lista">
+                            <input type="checkbox" id="lista">Inscrever-me na newsletter
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-sm-10 col-sm-offset-2">
+                    <button class="btn btn-info" type="submit">Cadastra-se</button>
+                </div>
+            </div>
+        </form>
+      </div>
+     </div>
+    </div>
+            
+            <footer>
+                <p>Site Rock´on - Avenida Paulista, 2200 - São Paulo/SP</p>
+                <small>&copy; Copyright - Site Rock´on C.C.L. todos os direitos reservados.</small>
+            </footer>
+     
+   
+    <script src="../js/jquery.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="_js/script.js"></script>
+  </body>
+</html>

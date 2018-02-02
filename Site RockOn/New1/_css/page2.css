@@ -1,0 +1,42 @@
+.navbar-default{
+    padding:0px 0;
+    background-color: currentColor;
+    font-family: cursive;
+}
+
+#imglogo {
+    margin-top: -25px;
+    padding: 10px;
+    margin-left: -90px; 
+}
+
+#som {
+    margin: inherit;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+}
+.jumbotron {
+    text-align: justify;
+    background-color: floralwhite;
+}
+
+h3 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center
+}
+
+footer { 
+    clear: both;   
+    width:700px;
+    margin:0 auto;
+    font-size:0.75em; 
+    color: black;
+    text-align:center; 
+    background-color: #ECECEC; 
+    padding:5px     
+}

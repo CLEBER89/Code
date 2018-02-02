@@ -1,0 +1,88 @@
+﻿#main {
+	margin:0 auto; 
+	position:relative;
+	width:990px; 
+	border:1px #666 solid; 
+	/* Firefox */
+	-moz-border-radius: 9px; 
+	/* WebKit */
+	-webkit-border-radius: 9px; 
+	/* IE9, Opera 10.5+, dev channel releases of Google Chrome */
+	border-radius: 9px; 
+	
+	/* Firefox */
+	-moz-transition: all 1s ease;
+	/* WebKit */
+	-webkit-transition: all 1s ease;
+	/* Opera */
+	-o-transition: all 1s ease;
+	/* Standard */
+	transition: all 1s ease;
+}
+
+#header {margin:10px 0px 0px 30px;height:85px;}
+
+#login {
+	float:right;
+	border: 1px #666 solid;
+	border-radius: 9px; /* CSS 3 */
+	-o-border-radius: 9px; /* Opera */
+	-icab-border-radius: 9px; /* iCab */
+	-khtml-border-radius: 9px; /* Konqueror */
+	-moz-border-radius: 9px; /* Firefox */
+	-webkit-border-radius: 9px; /* Safari */
+	width:400px;
+}
+
+#banner {height:270px;margin-left:-20px;z-index:9999;}
+
+#navbar {
+	width:200px;
+	float:left;
+	margin-top:25px;
+	list-style:none;margin:0;
+}
+
+#content{
+		list-style:none;margin:0;
+		margin-left: 50px;
+
+}
+
+.col1, .col2, .col3{float:left;}
+
+.col1{width:250px;margin-left:10px;}
+
+.col2{width:250px;margin-left:10px;}
+
+.col3{width:250px;margin-left:10px;}
+
+#footer {height:105px;clear:both;}
+
+
+/*CSS Relatórios Atacadão*/
+
+.logo, .titulo{float:left;}
+
+a{
+	color: #006;
+	
+}
+.itemrel{
+padding:3px;
+font-weight:bold;
+
+}
+
+a:hover{
+	font-size: 105%;
+}
+.colrel1, .colrel2{
+	float:left;
+}
+.colrel1{width:485px;margin-left:10px;}
+
+.colrel2{width:485px;margin-left:10px;}
+
+
+

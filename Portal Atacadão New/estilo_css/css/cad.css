@@ -1,0 +1,46 @@
+@charset "ISO-8859-2";
+/* CSS Document */
+
+html {
+	background-color:#F4F4F4;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+
+h2{
+    font-family: cursive; 
+    font-size: 50px;
+}
+
+.jumbotron{
+    margin-right: 350px;
+    margin-left: 350px;
+}
+
+input {
+	display:block;
+	margin-bottom:20px;
+	border:1px solid #999;
+	padding:8px;
+	
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	border-radius:3px;
+}
+
+input:focus {
+	border:1px solid #ccc;
+	outline:none;
+}
+
+input[type=submit] {
+	width:100px;
+	color:#FFF;
+	background:linear-gradient(top, #F33, #933 );
+	background:-webkit-linear-gradient(top, cornflowerblue , #933 );
+	background:-moz-linear-gradient(top, #F33, #933 );
+	border:1px solid #333;
+	cursor:pointer;
+}
+
+

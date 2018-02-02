@@ -1,0 +1,80 @@
+<html>
+<head>
+    <title>Rock´n Roll Site</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=devide-width, initial-scale=1">
+
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="_css/estilo.css" rel="stylesheet">
+    <link href="_css/cad.css" rel="stylesheet" media="screen">
+    <style type="text/css">   
+        body {
+            cursor: url(cursores/guitar.png), default
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <section class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#movelmenu" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+
+            <a href="1home.html"><img src="_img/ROCK-ON-Logo_Final_completed_thumb-1024x236.png" id="imglogo" alt="logo"></a>
+
+            <audio autoplay controls id="som">
+                <source src="audio/Metallica%20-%20Sad%20But%20True%20(HD).mp3" type="audio/mpeg">
+            </audio>
+
+            <div class="collapse navbar-collapse pull-right" id="movelmenu">
+                <ul class="nav navbar-nav">
+                    <li><a href="1home.html" id="navbar">HOME</a></li> 
+                    <li><a href="2historia.html" id="navbar">HISTÓRIA</a></li>
+                    <li><a href="3agenda.html" id="navbar">AGENDA</a></li>
+                    <li><a href="4eventos.html" id="navbar">EVENTOS</a></li>
+                    <li><a href="5cad.html" id="navbar">CADASTRE-SE</a></li>
+                </ul>
+            </div>
+        </section>
+    </nav>
+      <div class="container"> 
+        <div class="jumbotron">    
+         
+        <div class="form"> 
+        <h2>Formulário</h2>
+        <form action="destino.html" method="post">
+            
+            <label for="nome">Nome</label>
+            <input type="nom" name="nome" id="nome" size="30" maxlength="50" required autofocus placeholder="Insira seu nome">
+            
+            <label for="telefone">Telefone</label>
+            <input type="tel" name="telefone" id="telefone" size="30" maxlength="30" required placeholder="Insira seu telefone"> 
+            
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" size="30" maxlength="60" required placeholder="Insira seu e-mail">             
+            
+            <label for="website">Web Site</label>
+            <input type="url" name="website" id="website" size="30" maxlength="60" placeholder="Insira seu website">    
+                     
+            <label for="website">Cad</label>
+            <input type="number" name="filhos" id="filhos" min="1" max="5" value="1">
+            
+            <label for="aniversario">Aniversário</label>
+            <input type="date" name="aniversario" id="aniversario" size="30"> 
+            
+            <input type="submit" value="Enviar" id="enviar" name="enviar" href="destino.html">
+        </form>
+      </div>
+     </div>
+   </div>     
+</body>
+</html>
+

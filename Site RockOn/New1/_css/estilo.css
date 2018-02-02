@@ -1,0 +1,84 @@
+.navbar-default{
+    padding:0px 0;
+    background-color: currentColor;
+    font-family: cursive;
+}
+
+#imglogo {
+    margin-top: -25px;
+    padding: 10px;
+    margin-left: -90px; 
+}
+
+imglogo2 {
+    position: absolute;
+    clear: both;
+    top: 2200px;
+    left: 700px;
+}
+
+#bull{
+    margin-left: -40px;
+}
+
+#dh{
+    margin-top: -15px;    
+}
+
+#som {
+    margin: inherit;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+}
+.jumbotron {
+    text-align: center;
+    background-color: floralwhite;
+}
+
+div.carousel-inner {
+    max-height: 550px;   
+}
+
+form h3 {
+    text-align: center;
+}
+
+form h2 {
+    text-align: center
+}
+
+#navbar {
+    font-family: cursive;
+    color: aliceblue;
+}
+
+footer { 
+    clear: both;   
+    width:700px;
+    margin:0 auto;
+    font-size:0.75em; 
+    color: black;
+    text-align:center; 
+    background-color: #ECECEC; 
+    padding:5px     
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

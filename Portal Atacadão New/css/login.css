@@ -1,0 +1,106 @@
+/* Elementos principais */
+html, body {
+    height: 100%
+}
+body {
+    font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 10pt;
+	margin: 0px;
+	color: #333333;
+	overflow: hidden;
+	background: #ffffff
+}
+#wrapper {
+    width: 430px;
+    text-align: center;
+    overflow: hidden
+}
+body.blackfriday {
+    background-color: #000
+}
+form {
+    overflow: hidden;
+    padding-left: 30px
+}
+#logo {
+    margin: 0 0 30px
+}
+#wrapper.blackfriday #logo {
+    margin-top: 30px
+}
+p {
+    margin: 10px 0
+}
+label {
+    display: inline-block;
+    line-height: 34px;
+    margin-right: 5px
+}
+#wrapper.blackfriday label {
+    color: #f0f0f0
+}
+.input-text {
+    float: right;
+    color: #aaaaaa;
+    width: 270px;
+    padding: 6px 8px 6px 28px !important;
+    background: 8px center no-repeat;
+    background-color: #fafafa !important
+}
+.input-text:focus,
+.input-text:active {
+    color: #333333;
+    background-color: #ffffff
+}
+#NomeMp {
+    background-image: url('../ico/16/configuracoes.png') 
+}
+#username {
+    background-image: url('../ico/16/contato.png') 
+}
+#password {
+    background-image: url('../ico/16/permissoes.png') 
+}
+#btn_key {
+    float: right;
+    margin-bottom: 15px;
+    padding: 0;
+    text-align: right;
+    font-style: italic
+}
+#lnk-senha {
+    float: left;
+    line-height: 34px
+}
+#btn-submit {
+    float: right;
+    padding: 6px 15px;
+    font-size: 14px
+}
+#btn-submit, p {
+    margin-right: 30px
+}
+
+/* This parent can be any width and height */
+html, body, #container {
+    height: 100%
+}
+#container {
+  text-align: center;
+}
+ 
+/* The ghost, nudged to maintain perfect centering */
+#container:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -0.25em; /* Adjusts for spacing */
+}
+
+/* The element to be centered, can
+   also be of any width and height */ 
+#wrapper {
+  display: inline-block;
+  vertical-align: middle
+}

@@ -1,0 +1,8 @@
+<a href="123.php" target="_blank"><img src="/images/barra.jpg" width="773" height="56" border="0" /></a>
+
+
+
+
+
+
+<img border="0" src="imagensguarulhos/linux.jpg" width="599" height="482"></p>

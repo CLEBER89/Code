@@ -1,0 +1,109 @@
+git init
+git add --all
+git commit -m "Name"
+git remote add origin https://github.com/CLEBER89/Codes.git
+git push -u origin master
+
+
+
+
+
+
+
+C:\Users\clb>cd C:\Users\clb\Desktop\Projeto
+
+C:\Users\clb\Desktop\Projeto>mkdir php
+Já existe uma subpasta ou um arquivo php.
+
+C:\Users\clb\Desktop\Projeto>mkdir php1
+
+C:\Users\clb\Desktop\Projeto>cd php1
+
+C:\Users\clb\Desktop\Projeto\php1>git init
+Initialized empty Git repository in C:/Users/clb/Desktop/Projeto/php1/.git/
+
+C:\Users\clb\Desktop\Projeto\php1>git add index.php
+
+C:\Users\clb\Desktop\Projeto\php1>git add --all
+
+C:\Users\clb\Desktop\Projeto\php1>git commit -m ok
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: empty ident name (for <(NULL)>) not allowed
+
+C:\Users\clb\Desktop\Projeto\php1>git config --global user.email "clebersoncorreialima@gmail.com"
+
+C:\Users\clb\Desktop\Projeto\php1>git config --global user.name "Cleberson"
+
+C:\Users\clb\Desktop\Projeto\php1>git commit -m ok
+
+C:\Users\clb\Desktop\Projeto\php1>git remote add origin master
+ou https://github.com/CLEBER89/Codes.git
+
+C:\Users\clb\Desktop\Projeto\php1>git push origin master
+To https://github.com/CLEBER89/codes.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/CLEBER89/codes.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+
+
+
+
+   or: git remote add [-t <branch>] [-m <master>] [-f] [--tags | --no-tags] [--mirror=<fetch|push>] <name> <url>
+   or: git remote rename <old> <new>
+   or: git remote remove <name>
+   or: git remote set-head <name> (-a | --auto | -d | --delete | <branch>)
+   or: git remote [-v | --verbose] show [-n] <name>
+   or: git remote prune [-n | --dry-run] <name>
+   or: git remote [-v | --verbose] update [-p | --prune] [(<group> | <remote>)...]
+   or: git remote set-branches [--add] <name> <branch>...
+   or: git remote get-url [--push] [--all] <name>
+   or: git remote set-url [--push] <name> <newurl> [<oldurl>]
+   or: git remote set-url --add <name> <newurl>
+   or: git remote set-url --delete <name> <url>
+
+    -v, --verbose         be verbose; must be placed before a subcommand
+
+
+
+C:\Users\clb\Desktop\Projeto\php1>git push origin master
+remote: Repository not found.
+fatal: repository 'https://github.com/CLEBER89/codes.git/' not found
+
+C:\Users\clb\Desktop\Projeto\php1>git push origin master
+Counting objects: 3, done.
+Writing objects: 100% (3/3), 238 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/CLEBER89/codes.git
+ * [new branch]      master -> master
+
+C:\Users\clb\Desktop\Projeto\php1>git pull origin master
+remote: Counting objects: 3, done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+From https://github.com/CLEBER89/codes
+ * branch            master     -> FETCH_HEAD
+   d862a28..b83af44  master     -> origin/master
+Updating d862a28..b83af44
+Fast-forward
+ index.php | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+C:\Users\clb\Desktop\Projeto\php1>
+
+
+
